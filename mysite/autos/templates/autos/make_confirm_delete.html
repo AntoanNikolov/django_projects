@@ -1,0 +1,15 @@
+<meta name="dj4e" content="dbad2066681ee9062972ae33e0be6d7d">
+
+{% extends "base_bootstrap.html" %}
+
+{% block content %}
+
+<h1>Delete Make</h1>
+
+<form method="post">
+    {% csrf_token %}
+    <input type="submit" value="Confirm">
+</form>
+<a href="{% url 'autos:all' %}">Cancel</a>
+
+{% endblock %}
