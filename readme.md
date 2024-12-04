@@ -1,4 +1,4 @@
-###HOW TO RUN:  
+## HOW TO RUN:  
 Download or clone to your computer  
 Create Virtual environment (optional)  
 Navigate to mysite and run "pip install -r requirements42.txt"  
