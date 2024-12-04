@@ -86,25 +86,25 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
-#DATABASES = {
-#    'default': {
-#        'ENGINE': 'django.db.backends.sqlite3',
-#        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-#    }
-#}
-
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'AntoanNikolov$ads',  # Make sure this matches your actual database name in PythonAnywhere
-        'USER': 'AntoanNikolov',
-        'PASSWORD': 'antoanmarti321',  # Ensure this is your actual MySQL password
-        'HOST': 'AntoanNikolov.mysql.pythonanywhere-services.com',
-        'OPTIONS': {
-            'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
-        },
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
+
+#DATABASES = {
+#    'default': {
+#       'ENGINE': 'django.db.backends.mysql',
+#        'NAME': 'AntoanNikolov$ads',  # Make sure this matches your actual database name in PythonAnywhere
+#        'USER': 'AntoanNikolov',
+#        'PASSWORD': 'antoanmarti321',  # Ensure this is your actual MySQL password
+#        'HOST': 'AntoanNikolov.mysql.pythonanywhere-services.com',
+#        'OPTIONS': {
+#            'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
+#        },
+#    }
+#}
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
