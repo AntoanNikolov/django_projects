@@ -1,4 +1,4 @@
-# This is my personal django_projects folder. Projects inside it were made during the learning process of the DJ4E course.  
+### This is my personal django_projects folder. Projects inside it were made during the learning process of the DJ4E course.  
 
 ## HOW TO RUN:  
 Download or clone to your computer  
